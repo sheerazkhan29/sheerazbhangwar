@@ -1,0 +1,96 @@
+@media screen and ( max-width:1024px) {
+.hamburger{
+ display: block;
+ }
+header img{
+    width: 150px;
+}
+.navigations{
+    display: none;
+}
+
+.container-hero-section{
+flex-direction: column-reverse;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.primary-btn{
+    background-color: #2294ed;
+    border-radius: 6px;
+    padding: 12px 24px;
+    text-transform: capitalize;
+    color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+}
+.primary-btn a{
+    color: white;
+}
+.card-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-big-feature{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-markeeters{
+    flex-direction: column-reverse;
+}
+.Product-managers{
+    flex-direction: column;
+}
+
+.footer-list{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+.footer-list-logo{
+    text-align: center;
+}
+.footer-list2{
+    text-align: center;
+}
+.footer-list1{
+    text-align: center;
+}
+.footer-list3{
+    text-align: center;
+}
+.sheeraz-khan{
+    text-align: center;
+}
+
+
+}
+@media screen and (max-width:450px){
+.left-section h1{
+    font-size: 2rem;
+}
+      
+.image-section{
+    width: 300px;
+   
+    
+}
+       
+.Optimisation-image {
+    width: 300px;
+   
+}
+.product-manager-image{
+    width: 300px;
+   
+}
+}
+
